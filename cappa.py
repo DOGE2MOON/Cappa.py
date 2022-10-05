@@ -6,7 +6,7 @@ import pandas as pd
 def cappa(recipient):
 	
 	# create variables
-	utput = pd.DataFrame(index=["ETH", "USDC", "CAP"])
+	output = pd.DataFrame(index=["ETH", "USDC", "CAP"])
 	output.index.name = "Pool"
 
 	web3 = Web3(Web3.HTTPProvider('https://arb1.arbitrum.io/rpc'))
